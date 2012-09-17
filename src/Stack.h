@@ -5,7 +5,7 @@ class Stack {
  private:
   int* theStack;
   int top;
-
+  int capacity;
  public:
   Stack(int initialSize = 10);
   ~Stack(); //destructor
